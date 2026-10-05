@@ -1,6 +1,15 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
+struct student
+{
+	string name;
+	int age;
+	float gpa;
+	student(string n, int a, float g)
+		: name(n), age(a), gpa(g) {}
+};
 
 
 enum enLicense{

@@ -21,7 +21,7 @@ struct forgetPassword
 
 int main()
 {
-	student s1("John Doe", 20, 3.5);
-	cout << "Name: " << s1.name << ", Age: " << s1.age << ", GPA: " << s1.gpa << endl;
+	forgetPassword fp("john_doe", "secret123");
+	cout << "Username: " << fp.username << ", Password: " << fp.password << endl;
 	return 0;
 }

@@ -14,10 +14,6 @@ struct stAddress {
 	string state;
 	string zip;
 };
-struct stContact {
-	stAgent agent;
-	stAddress address;
-};
 
 
 int main() {

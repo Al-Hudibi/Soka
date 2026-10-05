@@ -8,6 +8,14 @@ enum enPlatform {
 	Linux
 };
 
+
+enum enLicense {
+	Free,
+	Trial,
+	Premium
+};
+
+
 enum enStatus {
 	Active,
 	Inactive,

@@ -20,4 +20,9 @@ namespace Client {
     {
         return A+B;
     }
+
+    void faisal(){
+
+        cout<<"welcome"<<endl;
+    }
 }

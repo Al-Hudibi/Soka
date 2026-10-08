@@ -10,4 +10,9 @@ namespace Client {
     void stop() {
         cout << "Client is stopping..." << endl;
     }
+
+    void Hello()
+    {
+        cout <<"HI Fisal"<<endl;
+    }
 }

@@ -15,4 +15,9 @@ namespace Client {
     {
         cout <<"HI Fisal"<<endl;
     }
+
+    int Sum(int A ,int B)
+    {
+        return A+B;
+    }
 }
